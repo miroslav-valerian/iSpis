@@ -1,0 +1,28 @@
+{
+    "name": "valerian/ispis",
+    "description": "iSpis",
+    "type": "library",
+    "config": {
+        "platform": {
+            "php": "5.3.9"
+        }
+    },
+    "require": {
+        "php": ">=5.3.1",
+        "nategood/httpful": "^0.2.20"
+    },
+    "autoload": {
+        "psr-4": {"Valerian\\Ispis\\": "src/"}
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miroslav Valerián",
+            "email": "info@miroslav-valerian.cz"
+        },
+        {
+            "name": "Karel Novotný",
+            "email": "novotny@easyrax.cz"
+        }
+    ]
+}
